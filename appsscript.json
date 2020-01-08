@@ -1,0 +1,183 @@
+{
+  "timeZone": "America/Mexico_City",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Classroom",
+      "serviceId": "classroom",
+      "version": "v1"
+    }, {
+      "userSymbol": "Tasks",
+      "serviceId": "tasks",
+      "version": "v1"
+    }, {
+      "userSymbol": "DoubleClickCampaigns",
+      "serviceId": "dfareporting",
+      "version": "v3.3"
+    }, {
+      "userSymbol": "BigQuery",
+      "serviceId": "bigquery",
+      "version": "v2"
+    },
+       {
+      "userSymbol": "YouTube",
+      "serviceId": "youtube",
+      "version": "v3"
+    }, {
+      "userSymbol": "FusionTables",
+      "serviceId": "fusiontables",
+      "version": "v2"
+    }, {
+      "userSymbol": "Docs",
+      "serviceId": "docs",
+      "version": "v1"
+    }, {
+      "userSymbol": "Drive",
+      "serviceId": "drive",
+      "version": "v2"
+    }, {
+      "userSymbol": "AdminLicenseManager",
+      "serviceId": "licensing",
+      "version": "v1"
+    }, {
+      "userSymbol": "Mirror",
+      "serviceId": "mirror",
+      "version": "v1"
+    }, {
+      "userSymbol": "AnalyticsReporting",
+      "serviceId": "analyticsreporting",
+      "version": "v4"
+    }, {
+      "userSymbol": "AdminDirectory",
+      "serviceId": "admin",
+      "version": "directory_v1"
+    }, {
+      "userSymbol": "AdminReports",
+      "serviceId": "admin",
+      "version": "reports_v1"
+    }, {
+      "userSymbol": "Gmail",
+      "serviceId": "gmail",
+      "version": "v1"
+    }, {
+      "userSymbol": "AdSense",
+      "serviceId": "adsense",
+      "version": "v1.4"
+    }, {
+      "userSymbol": "TagManager",
+      "serviceId": "tagmanager",
+      "version": "v2"
+    }, {
+      "userSymbol": "AdminGroupsMigration",
+      "serviceId": "groupsmigration",
+      "version": "v1"
+    }, {
+      "userSymbol": "Slides",
+      "serviceId": "slides",
+      "version": "v1"
+    }, {
+      "userSymbol": "Sheets",
+      "serviceId": "sheets",
+      "version": "v4"
+    }, {
+      "userSymbol": "DriveActivity",
+      "serviceId": "driveactivity",
+      "version": "v2"
+    }, {
+      "userSymbol": "ShoppingContent",
+      "serviceId": "content",
+      "version": "v2"
+    }, {
+      "userSymbol": "Calendar",
+      "serviceId": "calendar",
+      "version": "v3"
+    }, {
+      "userSymbol": "AdminReseller",
+      "serviceId": "reseller",
+      "version": "v1"
+    }, {
+      "userSymbol": "YouTubeAnalytics",
+      "serviceId": "youtubeAnalytics",
+      "version": "v2"
+    }, {
+      "userSymbol": "People",
+      "serviceId": "peopleapi",
+      "version": "v1"
+    }, {
+      "userSymbol": "YouTubeContentId",
+      "serviceId": "youtubePartner",
+      "version": "v1"
+    }, {
+      "userSymbol": "AppsActivity",
+      "serviceId": "appsactivity",
+      "version": "v1"
+    }, {
+      "userSymbol": "AdminGroupsSettings",
+      "serviceId": "groupssettings",
+      "version": "v1"
+    }, {
+      "userSymbol": "Analytics",
+      "serviceId": "analytics",
+      "version": "v3"
+    }],
+    "libraries": [{
+      "userSymbol": "JSONPath",
+      "libraryId": "1BtmcVnmTKAxqdiHN9Q5cM6M6E5MUMzVtQjSfav-OIQxNIoACkDdlst53",
+      "version": "11"
+    }, {
+      "userSymbol": "SheetConverter",
+      "libraryId": "1kL7pHe3Ru9hCcc1YXJTdPCuPRo-rDzH9fi3--QF8TE7AxIrQoJXZht8A",
+      "version": "6"
+    }, {
+      "userSymbol": "BBLog",
+      "libraryId": "1kzzYZhgODZluRmjsjh7t3O-ftmFAF9h1jaRHU0rOdf9irF0VUiJW33Kt",
+      "version": "13"
+    }, {
+      "userSymbol": "ArrayLib",
+      "libraryId": "1r9wNWbta3ebuYL4ENAdIp4UYKmyNiWf1AqsXYzfXduRHhTZEeTxS9MhZ",
+      "version": "23"
+    }, {
+      "userSymbol": "Underscore",
+      "libraryId": "1I21uLOwDKdyF3_W_hvh6WXiIKWJWno8yG9lB8lf1VBnZFQ6jAAhyNTRG",
+      "version": "24"
+    }, {
+      "userSymbol": "Assert",
+      "libraryId": "1R-rxUHuQU0ez95FlZz9fxqifbYFszHnukqzv_3Uk5zM3eG4eRBrh_E1M",
+      "version": "16"
+    }, {
+      "userSymbol": "FirebaseApp",
+      "libraryId": "1hguuh4Zx72XVC1Zldm_vTtcUUKUA6iBUOoGnJUWLfqDWx5WlOJHqYkrt",
+      "version": "30"
+    }, {
+      "userSymbol": "OAuth1",
+      "libraryId": "1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s",
+      "version": "16"
+    },{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "35"
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+  "https://www.googleapis.com/auth/gmail",
+  "https://www.googleapis.com/auth/drive",
+  "https://www.googleapis.com/auth/script.external_request",
+  "https://www.googleapis.com/auth/script.scriptapp",
+  "https://www.googleapis.com/auth/script.send_mail",
+  "https://www.googleapis.com/auth/spreadsheets",
+  "https://www.googleapis.com/auth/script.container.ui",
+  "https://www.googleapis.com/auth/firebase",
+  "https://www.googleapis.com/auth/cloud-platform",
+  "https://www.googleapis.com/auth/content",
+  "https://www.googleapis.com/auth/gmail",
+  "https://www.google.com/webmasters/tools/feeds",
+  "https://sites.google.com/feeds/",
+  "https://www.googleapis.com/auth/userinfo.email",
+  "https://www.googleapis.com/auth/blogger",
+  "https://www.googleapis.com/auth/userinfo"
+  ]
+}
